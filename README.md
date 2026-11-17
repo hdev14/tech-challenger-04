@@ -192,10 +192,3 @@ Os testes usam dados fictícios e não chamam Azure. O teste de integração ini
 um pool de workers real, exercita a API e o Redis e não executa `FLUSHDB`.
 Sem `TEST_REDIS_URL`, ele é ignorado. A disponibilidade real dos recursos, dos
 idiomas e do modelo deve ser confirmada na conta e região utilizadas.
-
-## Licenças
-
-As dependências diretas estão fixadas em `requirements.txt`. Em particular,
-PyMuPDF é distribuído sob AGPL-3.0 ou licença comercial Artifex; verifique a
-adequação ao seu uso. O SDK Azure Speech e os serviços Azure têm termos próprios.
-Confira também os termos da imagem oficial Redis.
